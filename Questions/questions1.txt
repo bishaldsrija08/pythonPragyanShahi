@@ -1,0 +1,19 @@
+Simple Data Types
+
+1. Write a program that takes an integer as input and prints whether it is positive, negative, or zero.
+2. Ask the user for their name and age, then print a message saying how old they will be after 5 years.
+3. Given two numbers, write a program to swap their values without using a third variable.
+4. 1. Write a program in python language to take principal, rate, and time and calculate the simple interest.
+5. Write a program in Python language to enter two numbers and find out the sum and product.
+6. Write a program in Python language to ask for the base and height of a triangle and calculate its area. [hint: A=(b*h)/2]
+7. Write a program in python language to find the square root of a number.
+
+Conditionals
+
+4. Write a program that takes a number and checks whether it is even or odd.
+5. Take three numbers as input and print the largest among them.
+6. Write a program that asks for a student’s marks (0–100) and prints the grade:
+90–100 → A
+75–89 → B
+50–74 → C
+Below 50 → Fail
