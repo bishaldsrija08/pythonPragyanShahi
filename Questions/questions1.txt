@@ -17,3 +17,20 @@ Conditionals
 75–89 → B
 50–74 → C
 Below 50 → Fail
+
+Loops
+
+1. Write a program to print all numbers from 1 to 50 that are divisible by 5.
+2. Take a number n as input and print the sum of the first n natural numbers using a loop.
+3. Write a program to print the multiplication table of a given number (up to 10).
+4. Given a number, write a program to count the number of digits in it using a loop.
+
+
+While loop questins
+1. WAP to print 1 to 10.
+2. WAP to pring 10 to 1.
+3. WAP to print first 10 odd numbers.
+4. WAP to print first 10 even numbers.
+5. WAP to print first 10 whole numbers.
+6. WAP to print even numbers between 60 to 80.
+7. WAP to print odd numbers between 60 to 80.
