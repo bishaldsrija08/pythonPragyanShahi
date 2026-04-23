@@ -6,7 +6,6 @@
 1 2 3 4 5
 """
 
-
 lines = 5
 for i in range(1, lines+1): # outer loop
     # print space
