@@ -1,0 +1,9 @@
+x = 1
+def f():
+    # global x
+    x = 2
+    y = x
+    return x + y
+print(x)
+print(f())
+print(x)
