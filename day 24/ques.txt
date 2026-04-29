@@ -1,0 +1,296 @@
+🟢 Easy (1–7)
+1.
+print("Hello World"
+print(name)
+
+2.
+age = input("Enter your age: ")
+if age > 18
+    print("You are an adult")
+
+3.
+for i in range(5)
+print(i)
+
+4.
+x = 10
+y = "5"
+print(x + y)
+
+5.
+num = input("Enter number: ")
+print(num * 2)
+print(nm)
+
+6.
+a = 5
+b = 0
+print(a / b)
+
+7.
+print("Python is fun")
+Print("I love coding")
+
+
+
+🟡 Medium (8–14)
+8.
+x = int(input("Enter number: "))
+if x = 10:
+    print("Ten")
+
+9.
+for i in range(1, 5):
+    print(i)
+  print("Done")
+
+10.
+def add(a, b)
+    return a + b
+
+print(add(2))
+
+11.
+marks = 75
+if marks >= 90:
+    print("A")
+elif marks >= 75
+    print("B")
+
+12.
+name = input("Enter name: ")
+print("Hello" + name)
+print("Length:", len(Name))
+
+13.
+i = 1
+while i <= 5
+    print(i)
+    i += 1
+
+14.
+numbers = [1, 2, 3]
+print(numbers[3])
+print(number)
+
+
+
+🔴 Hard (15–20)
+15.
+def check_even(num):
+    if num % 2 = 0:
+        print("Even")
+    else
+        print("Odd")
+
+16.
+total = 0
+for i in range(1, 6):
+    total = total + i
+print("Sum is " + total)
+
+17.
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial()
+
+print(factorial(5))
+
+18.
+x = int(input("Enter number: "))
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else x == 0:
+    print("Zero")
+
+19.
+def greet(name):
+print("Hello", name)
+
+greet()
+
+
+===================================================================
+
+🟢 Easy (1–7)
+1. Reverse a number
+num = int(input("Enter number: "))
+rev = 0
+while num > 0
+    rev = rev * 10 + num % 10
+    num = num / 10
+print("Reverse:", rev)
+
+2. Check palindrome number
+num = int(input("Enter number: "))
+temp = num
+rev = 0
+while num > 0:
+    rev = rev * 10 + num % 10
+    num = num // 10
+
+if rev = temp:
+    print("Palindrome")
+
+3. Print first 5 natural numbers
+i = 1
+while i <= 5
+    print(i)
+    i = i + 1
+
+4. Sum of digits
+num = int(input("Enter number: "))
+sum = 0
+while num > 0:
+    sum = sum + num % 10
+    num = num / 10
+print("Sum is", sum)
+
+5. Even or odd
+num = int(input("Enter number: "))
+if num % 2 = 0:
+    print("Even")
+else
+    print("Odd")
+
+6. Print numbers from 1 to n
+n = int(input("Enter n: "))
+for i in range(1, n)
+    print(i)
+
+7. Simple function to add two numbers
+def add(a, b):
+return a + b
+
+print(add(3, 4))
+
+🟡 Medium (8–14)
+8. Armstrong number (3-digit)
+num = int(input("Enter number: "))
+temp = num
+sum = 0
+while num > 0:
+    digit = num % 10
+    sum = sum + digit ** 3
+    num = num // 10
+
+if sum == number:
+    print("Armstrong")
+
+9. Reverse a number using function
+def reverse(num):
+    rev = 0
+    while num > 0:
+        rev = rev * 10 + num % 10
+        num = num / 10
+    return rev
+
+print(reverse())
+
+10. Fibonacci series (first n terms)
+n = int(input("Enter n: "))
+a = 0
+b = 1
+for i in range(n):
+    print(a)
+    a = b
+    b = a + b
+
+11. Check palindrome string
+s = input("Enter string: ")
+rev = ""
+for i in range(len(s)):
+    rev = s[i] + rev
+
+if rev == S:
+    print("Palindrome")
+
+12. Factorial of a number
+num = int(input("Enter number: "))
+fact = 1
+for i in range(1, num):
+    fact = fact * i
+print("Factorial:", fact)
+
+13. Count digits in a number
+num = int(input("Enter number: "))
+count = 0
+while num >= 0:
+    count += 1
+    num = num // 10
+print("Digits:", count)
+
+14. Sum of first n numbers
+n = int(input("Enter n: "))
+sum = 0
+for i in range(1, n+1)
+    sum = sum + i
+print("Sum:", sum)
+
+🔴 Hard (15–20)
+15. Armstrong number (any digits)
+num = int(input("Enter number: "))
+temp = num
+digits = len(num)
+sum = 0
+while num > 0:
+    digit = num % 10
+    sum = sum + digit ** digits
+    num = num // 10
+
+if sum == temp
+    print("Armstrong")
+
+16. Prime number check
+num = int(input("Enter number: "))
+for i in range(2, num):
+    if num % i == 0:
+        print("Not Prime")
+        break
+else:
+    print("Prime")
+    break
+
+17. Reverse a string using function
+def reverse_string(s):
+    rev = ""
+    for i in s:
+        rev = i + rev
+    print(rev)
+
+reverse_string()
+
+18. Palindrome number using function
+def palindrome(num):
+    temp = num
+    rev = 0
+    while num > 0:
+        rev = rev * 10 + num % 10
+        num = num // 10
+    if rev == temp
+        return True
+
+print(palindrome(121))
+
+19. Fibonacci series using function
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        print(a)
+        a = b
+        b = a + b
+
+fibonacci()
+
+20. Sum of digits using recursion
+def sum_digits(n):
+    if n == 0
+        return 0
+    return n % 10 + sum_digits(n // 10)
+
+print(sum_digits())
