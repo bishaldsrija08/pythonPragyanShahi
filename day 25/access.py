@@ -10,7 +10,7 @@ print(thislist[:4]) # Output: ['apple', 'banana', 'cherry', 'orange']
 
 print(thislist[2:]) # Output: ['cherry', 'orange', 'kiwi', 'melon', 'mango']
 
-print(thislist[-4:-1]) # Output: ['orange', 'kiwi', 'melon']
+print(thislist[-4:]) # Output: ['orange', 'kiwi', 'melon', 'mango']
 
 if "apple" in thislist:
     print("Yes, 'apple' is in the list")

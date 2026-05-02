@@ -8,3 +8,9 @@ print(thislist)
 
 thislist.insert(2, "watermelon")
 print(thislist)
+
+idx = thislist.index("banana")
+print(idx) # Output: 1
+
+thislist[idx] = "grape"
+print(thislist)
