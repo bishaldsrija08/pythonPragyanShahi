@@ -1,0 +1,44 @@
+🧑‍🏫 Class & Object
+What is a class in Python?
+
+What is an object?
+
+Write a simple Python class called Car with attributes brand and color.
+
+How do you create an object of the Car class?
+
+👨‍👩‍👧 Inheritance
+What is inheritance in Python?
+
+Why do we use inheritance?
+
+Create a class Animal with a method sound(). Then create a class Dog that inherits from Animal and prints "Woof!".
+
+What keyword is used in Python to inherit a class?
+
+🔄 Polymorphism
+What does polymorphism mean in OOP?
+
+Give an example of polymorphism using the + operator in Python.
+
+Write two classes Cat and Bird, both having a method speak(). Show how polymorphism works when calling speak() on objects of both classes.
+
+Why is polymorphism useful?
+
+🔒 Encapsulation
+What is encapsulation in Python?
+
+How do we make a variable private in a class?
+
+Write a class Student with a private variable _marks and a method to set and get the marks.
+
+Why is encapsulation important?
+
+🌐 Abstraction
+What is abstraction in OOP?
+
+Which Python module provides abstract classes?
+
+Write an abstract class Shape with an abstract method area(). Then create a subclass Circle that implements the area() method.
+
+How does abstraction help in real-life programming?
