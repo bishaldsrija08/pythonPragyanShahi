@@ -9,8 +9,7 @@ mydb = mysqlDb.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("INSERT INTO students (id, name, age) VALUES (1, 'Pragyan', 20)")
+mycursor.execute("SELECT * FROM students")
+data = mycursor.fetchall()
 
-mydb.commit()
-
-print("Data inserted successfully!")
+print(data)
