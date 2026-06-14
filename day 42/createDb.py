@@ -7,4 +7,7 @@ mydb = mysqlDb.connect(
 )
 
 mycursor = mydb.cursor()
-print(mydb, "Connected to MySQL database successfully!")
+
+mycursor.execute("CREATE DATABASE IF NOT EXISTS mydbonetoone")
+
+print("Database created successfully!")
